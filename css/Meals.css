@@ -97,7 +97,7 @@ input[type=checkbox] {
   .menu {
     display: none;
     position: absolute;
-    background-color: rgb(207, 207, 207);
+    background-color: #EEEEEE;
     right: 0;
     left: 0;
     text-align: center;
