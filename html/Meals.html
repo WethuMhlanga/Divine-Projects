@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/Meals.css">
+
+    <title>Devine's projects</title>
+</head>
+
+
+<body>
+  <header>
+      <nav class="navbar fixed-top">
+        <!-- img-fluid rounded-circle d-none d-md-block about-img -->
+          <!-- LOGO -->
+          <div class="nav-brand">
+            <h4><i>Divine Projects</i></h4>
+          </div>
+
+          <ul class="nav-links">
+            <!-- Check Box Hack -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.html#about-us">About Us</a></li>
+              <li><a href="../index.html#our-rating">Our Products</a></li>
+
+              <li class="catalogue">
+                <a href="#">Catalogue</a>
+                <ul class="dropdown">
+                  <li><a href="Meals.html">Meals </a></li>
+                  <li><a href="Drinks.html">Drinks</a></li>
+                  <!-- More dropdown items... -->
+                </ul>
+              </li>
+              <li><a href="#contact-us">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+  </header>
+
+
+
+  <section id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <!-- relevant bg-img & allows readibility of content -->
+          <h1 class="display-4">Meals</h1>
+          <p class="lead">
+            Savor our delectable meals, crafted with the finest ingredients and culinary expertise. Each dish promises a harmonious blend of flavors and textures, designed to delight your taste buds.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- 
+      *Picture must react upon hover[Pop in/zoom-in].
+      *
+     -->
+     
+    <section id="video-tuto-section" style="background-color: rgb(213, 211, 216);">
+        <div class="container">
+          <div class="section-title text">
+            <h4 class="text-left display-4 bold">
+                Menu for Super Meals
+            </h4>
+            <p class="text-left" style="font-size: 16px;">
+                Check out our food variations and fill up your stomach with our super meals at lower prices.
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+              <img src="../img/1.png" alt="Menu" class="img-fluid" id="menu-img">
+            </div>
+          </div>
+          <p class="lead text-center">Do not forget to contact us for more information or ask around!😁</p>
+        </div>
+      </section>
+
+      <!-- Main Footer -->
+      <footer id="main-footer" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3>Divine Projects</h3>
+                    <p>Copyright &copy; <span id="year"></span></p>
+                    <!-- Add some social media icons for more interactivity -->
+                    <div class="social-icons mt-3">
+                        <a href="https://www.facebook.com/profile.php?id=61561457879688&mibextid=LQQJ4d" target="_blank" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<!-- Add Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+
+<script>
+  // Get the current year for the copyright
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</html>
