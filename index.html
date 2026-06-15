@@ -17,6 +17,15 @@
     />
   </head>
   <body>
+    <script>
+      // Restore path from 404.html redirect (GitHub Pages SPA routing)
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, '', decodeURIComponent(p));
+        }
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
