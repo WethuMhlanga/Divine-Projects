@@ -1,0 +1,55 @@
+:root {
+  --gold: #c9a84c;
+  --gold-dark: #a8893a;
+  --gold-light: #e8c97a;
+  --black: #0a0a0a;
+  --dark: #111111;
+  --dark-2: #1c1c1e;
+  --dark-3: #2a2a2a;
+  --cream: #fdf9f4;
+  --cream-2: #f5ede0;
+  --text: #2c2c2c;
+  --text-muted: #6b6b6b;
+  --white: #ffffff;
+  --navbar-h: 70px;
+  --radius: 10px;
+  --transition: 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--cream);
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
